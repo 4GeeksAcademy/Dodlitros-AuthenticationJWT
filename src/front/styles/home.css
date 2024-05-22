@@ -1,7 +1,49 @@
-/*
-    home.css: This website contains selectors only used in home.css
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+.home{
+    background-color: #000000;
+    flex-direction: column;
+    height: calc(100vh - 10vh); 
+}   
+.imgHome{
+    background-image: url('https://static1.squarespace.com/static/55736d3be4b0976301e0067e/t/5cd52a5641920208eafea815/1557473880186/SWM+wolf+white+on+black.jpg?format=1500w');
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home .homeContainer {
+    flex: 1; 
+}
+.homeContainer {
+    padding: 8vh; 
+    border: 0.1vh solid black;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 4vh;
+    margin-bottom: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    color: aliceblue;
+    font-size:10vh;
+    font-weight: 540;
+    line-height: 1.2;
+}
+.subheading{
+    color: aliceblue;
+    font-size: 3.4vh;
+    width: 80vh;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.project{
+    color: aliceblue;
+    font-size: 3vh;
+    margin-top: 24vh;
+    line-height: 1.2;
+    font-style: oblique;
+}
+.academy{
+    color: rgb(62, 62, 62);
+    line-height: 0.5;
+    font-weight: bold;
+}
